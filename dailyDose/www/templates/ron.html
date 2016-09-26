@@ -1,11 +1,21 @@
 <ion-view view-title="Dashboard" >
   <ion-content id="rontab" class="padding">
     <!-- content will go here -->
-    <h3 class="ron"> Ron Says: </h3>
+    <!-- <h3 class="ron"> Ron Says: </h3>
     <div class='blur'>
       <p class="ronquote">{{quote}}</p>
       <button class="ronbtn button button-dark" onClick="location.reload()">Get Another!</button>
-    </div>
+    </div> -->
+
+    <ion-card>
+      <ion-card-header>
+        <p>Ron Says:</p>
+      </ion-card-header>
+
+      <ion-card-content>
+        <p>{{quote}}</p>
+      </ion-card-content>
+    </ion-card>
 
   </ion-content>
 </ion-view>
