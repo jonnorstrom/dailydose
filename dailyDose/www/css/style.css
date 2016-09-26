@@ -10,24 +10,36 @@
   padding-top: 30px;
 }
 
+#ronview {
+  display: flex;
+  flex-direction: column-reverse;
+  padding-bottom: 55px;
+}
+
 h3.ron {
   padding-left: 5px;
 }
 
 .ronquote {
+  /*padding-bottom: 60px;*/
+}
+
+.card .item {
+  border-radius: 10px;
+  background-color: rgba(120, 120, 130, 0.8);
+}
+
+.card .item .roncard {
   font-weight: bold;
-  font-size: 16px;
   color: white;
-  padding: 15px;
-  padding-bottom: 70px;
 }
 
-.blur {
-  border-radius:10px;
-  background-color: rgba(120, 120, 120, 0.4);
+span.header {
+  font-size: 22px;
+  font-weight: normal;
 }
 
-.ronbtn {
+#ronbtn {
   position: absolute;
   bottom: 15px;
   right: 15px;

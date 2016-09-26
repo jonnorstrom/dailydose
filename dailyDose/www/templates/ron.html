@@ -1,4 +1,4 @@
-<ion-view view-title="Dashboard" >
+<ion-view view-title="Dashboard" id="ronview">
   <ion-content id="rontab" class="padding">
     <!-- content will go here -->
     <!-- <h3 class="ron"> Ron Says: </h3>
@@ -7,15 +7,13 @@
       <button class="ronbtn button button-dark" onClick="location.reload()">Get Another!</button>
     </div> -->
 
-    <ion-card>
-      <ion-card-header>
-        <p>Ron Says:</p>
-      </ion-card-header>
-
-      <ion-card-content>
-        <p>{{quote}}</p>
-      </ion-card-content>
-    </ion-card>
 
   </ion-content>
+  <div on-swipe-left="alert('hey')" class='card'>
+    <div class='item item-text-wrap'>
+      <p class="roncard"><span class="header">Ron Says:</span></p>
+      <p class="roncard ronquote">{{quote}}</p>
+      <!-- <button id="ronbtn" class="button button-dark" onClick="location.reload()">Get Another</button> -->
+    </div>
+  </div>
 </ion-view>
